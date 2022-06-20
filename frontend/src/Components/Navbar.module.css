@@ -1,0 +1,39 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.ash {
+  height: 25px;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  color: rgb(148, 149, 139);
+  font-family: Questrial, sans-serif;
+  font-size: 8.96px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+}
+
+.text {
+  text-decoration: none;
+  color: #656565;
+}
+
+.text > img {
+  height: 40px;
+  /* border: 2px solid blue; */
+}
+
+.headings {
+  display: grid;
+  grid-template-columns: repeat(5, 22%);
+  width: 400px;
+  margin-left: 350px;
+  font-size: 8.96px;
+  font-family: Questrial, sans-serif;
+}
